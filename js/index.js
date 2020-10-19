@@ -15,7 +15,7 @@ function hamburgerMenu() {
 
   var container = $("#aphaOrder");
   container.detach().empty().append(alphabeticallyOrderedDivs);
-  $('body').append(container);
+  $('main').append(container);
 })
 
 //TOGGLE
