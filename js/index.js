@@ -17,6 +17,7 @@ function hamburgerMenu() {
   container.detach().empty().append(alphabeticallyOrderedDivs);
   $('body').append(container);
 })
+
 //TOGGLE
   howMany = 10;
   listButton = $('button.list-view');
@@ -45,4 +46,4 @@ function hamburgerMenu() {
 /*    $(".item").hover(function(){
   $(this).animate({height:'50vh'});
 })  */
- 
+
