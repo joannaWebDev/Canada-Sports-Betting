@@ -257,14 +257,13 @@ button.on {
     margin: 1%;
     text-align: center;
     padding: 1%;
-}
-.grid .item  {
-    -moz-transition: width 1s ;
+     -moz-transition: width 1s ;
     -webkit-transition:width 1s ;
     -o-transition:width 1s ;
     transition:width  1s ;
     width: 20em;
 }
+
 .grid .item:hover {
     width: 30em;
 }
